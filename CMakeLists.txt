@@ -5,10 +5,6 @@ project(slac VERSION 0.1
 		LANGUAGES CXX C
 )
 
-find_package(everest-cmake 0.1 REQUIRED
-    PATHS ../everest-cmake
-)
-
 # options
 option(BUILD_SLAC_TOOLS "Build SLAC tools" OFF)
 option(SLAC_INSTALL "Install the library (shared data might be installed anyway)" ${EVC_MAIN_PROJECT})
