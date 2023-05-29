@@ -6,7 +6,7 @@ project(slac VERSION 0.1
 )
 
 # options
-option(BUILD_SLAC_TOOLS "Build SLAC tools" ON)
+option(BUILD_SLAC_TOOLS "Build SLAC tools" OFF)
 option(SLAC_INSTALL "Install the library (shared data might be installed anyway)" ${EVC_MAIN_PROJECT})
 
 add_subdirectory(3rd_party)
